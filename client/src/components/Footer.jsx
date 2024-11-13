@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-body">
 
         <ul>
-          <li>Biryani</li>
+          <li>Biriyani</li>
           <li>Pizza</li>
         </ul>
 

@@ -35,7 +35,7 @@ const Home = () => {
 
         <div className="home-category-card" onClick={()=>navigate('/category/Biriyani')}>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4-VXaTJIkc6rk02DU8r7r9zR-KaeWvH1oKA&usqp=CAU" alt="" />
-          <h5>Biryani</h5>
+          <h5>Biriyani</h5>
         </div>
 
         <div className="home-category-card" onClick={()=>navigate('/category/Pizza')}>
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
 
         <div className="home-category-card" onClick={()=>navigate('/category/Burger')}>
-          <img src="https://static.toiimg.com/thumb/83565509.cms?width=1200&height=900  " alt="" />
+          <img src="https://www.bluecirclefoods.com/cdn/shop/products/Blue_Circle_Salmon_Organic_Burger_1000x.jpg?v=1692122703" alt="" />
           <h5>Burger</h5>
         </div>
 

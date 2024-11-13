@@ -15,8 +15,7 @@ app.use(cors());
 
 const PORT = 6001;
 
-const uri = "mongodb+srv://saipravin943:saaipraavin001@cluster0.sgq4h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
+const uri="mongodb+srv://saipravin943:saipravin@cluster0.sgq4h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(uri,{
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -468,6 +467,6 @@ mongoose.connect(uri,{
 
 
     app.listen(PORT, ()=>{
-        console.log(`App server is running on port ${PORT}`);
+        console.log('running @ 6001');
     })
 }).catch((e)=> console.log(`Error in db connection ${e}`));
